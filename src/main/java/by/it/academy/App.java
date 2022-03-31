@@ -21,6 +21,8 @@ public class App {
         printRightTriangleSquare();
 
         printRectangleSquare();
+
+        System.out.println("Which figure is your favorite?");
     }
 
     private static void printRectangleSquare() {
