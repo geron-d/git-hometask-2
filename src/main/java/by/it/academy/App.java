@@ -20,15 +20,8 @@ public class App {
 
         printRightTriangleSquare();
 
-        printRectangleSquare();
     }
 
-    private static void printRectangleSquare() {
-        RectangleSquare rectangleSquare = new RectangleSquareImplementation();
-        System.out.println("squareThroughWidthAndLength : " + rectangleSquare.squareThroughWidthAndLength(5, 5));
-        System.out.println("squareThroughQuadrilateralFormula : " + rectangleSquare.squareThroughQuadrilateralFormula(7.071, 90));
-        System.out.println("squareThroughSideAndDiagonal : " + rectangleSquare.squareThroughSideAndDiagonal(5, 7.071));
-    }
 
     private static void printRightTriangleSquare() {
         RightTriangleSquare rightTriangleSquare = new RightTriangleSquareImplementation();
