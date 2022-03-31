@@ -23,6 +23,7 @@ public class App {
         printRectangleSquare();
 
         System.out.println("Which figure is your favorite?");
+        System.out.println("Don't push rectangles");
     }
 
     private static void printRectangleSquare() {
